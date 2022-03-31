@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "time-lord-tim"
+version = "0.1.0"
+description = ""
+authors = ["Sam Burba <github@samburba.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^1.7.3"
+python-dateutil = "^2.8.2"
+pytz = "^2022.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.1.0"
+"discord.py-stubs" = "^1.7.3"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
